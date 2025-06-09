@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.pond.pondaction</id>
-    <name>Hello World Action</name>
+    <name>Pond Storm Action</name>
     <version>1.0</version>
     <vendor>Example</vendor>
 
