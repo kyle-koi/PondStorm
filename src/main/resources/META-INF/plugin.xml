@@ -1,8 +1,8 @@
 <idea-plugin>
-    <id>com.pond.pondaction</id>
-    <name>Hello World Action</name>
+    <id>com.pond.pondstorm</id>
+    <name>Pond Storm Action</name>
     <version>1.0</version>
-    <vendor>Example</vendor>
+    <vendor>PondFocus</vendor>
 
     <description>
         A simple motivational plugin for IntelliJ.
@@ -11,7 +11,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <actions>
-        <action id="PondAction"
+        <action id="PondStorm"
                 class="com.example.PondAction"
                 text="You are POND STORM!"
                 description="Prints a motivational tip">
