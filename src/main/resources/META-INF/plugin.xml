@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.pond.pondaction</id>
+    <name>Hello World Action</name>
+    <version>1.0</version>
+    <vendor>Example</vendor>
+
+    <description>
+        A simple motivational plugin for IntelliJ.
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="PondAction"
+                class="com.example.PondAction"
+                text="You are POND STORM!"
+                description="Prints a motivational tip">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
