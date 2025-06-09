@@ -2,7 +2,7 @@
     <id>com.pond.pondaction</id>
     <name>Pond Storm Action</name>
     <version>1.0</version>
-    <vendor>Example</vendor>
+    <vendor>PondFocus</vendor>
 
     <description>
         A simple motivational plugin for IntelliJ.
