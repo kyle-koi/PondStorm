@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.pond"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -20,6 +20,7 @@ tasks {
     patchPluginXml {
         version.set(project.version.toString())
         sinceBuild.set("232")
+        untilBuild.set("251.*")
     }
 
     buildSearchableOptions {
